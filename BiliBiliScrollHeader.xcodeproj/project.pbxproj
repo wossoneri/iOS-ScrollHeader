@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A75CD92F27595C0F93B4C4FC /* libPods-BiliBiliScrollHeader.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 33AE69ECD8A7DE8793B4949D /* libPods-BiliBiliScrollHeader.a */; };
+		EDA6C5011C415C3D0036F044 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA6C5001C415C3D0036F044 /* main.m */; };
+		EDA6C5041C415C3D0036F044 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA6C5031C415C3D0036F044 /* AppDelegate.m */; };
+		EDA6C5071C415C3D0036F044 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA6C5061C415C3D0036F044 /* ViewController.m */; };
+		EDA6C50A1C415C3D0036F044 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDA6C5081C415C3D0036F044 /* Main.storyboard */; };
+		EDA6C50C1C415C3D0036F044 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDA6C50B1C415C3D0036F044 /* Assets.xcassets */; };
+		EDA6C50F1C415C3D0036F044 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDA6C50D1C415C3D0036F044 /* LaunchScreen.storyboard */; };
+		EDA6C51A1C415C3D0036F044 /* BiliBiliScrollHeaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA6C5191C415C3D0036F044 /* BiliBiliScrollHeaderTests.m */; };
+		EDA6C5251C415C3D0036F044 /* BiliBiliScrollHeaderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA6C5241C415C3D0036F044 /* BiliBiliScrollHeaderUITests.m */; };
+		EDA6C5331C415F400036F044 /* libMasonry.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EDA6C5321C415F400036F044 /* libMasonry.a */; };
+		EDA6C5361C4161070036F044 /* MyScrollHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA6C5351C4161070036F044 /* MyScrollHeader.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDA6C5161C415C3D0036F044 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDA6C4F41C415C3C0036F044 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDA6C4FB1C415C3C0036F044;
+			remoteInfo = BiliBiliScrollHeader;
+		};
+		EDA6C5211C415C3D0036F044 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDA6C4F41C415C3C0036F044 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDA6C4FB1C415C3C0036F044;
+			remoteInfo = BiliBiliScrollHeader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B9DB9C20A14DBB2C838192D /* Pods-BiliBiliScrollHeader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BiliBiliScrollHeader.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BiliBiliScrollHeader/Pods-BiliBiliScrollHeader.debug.xcconfig"; sourceTree = "<group>"; };
+		33AE69ECD8A7DE8793B4949D /* libPods-BiliBiliScrollHeader.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BiliBiliScrollHeader.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D016362AE1A802DB9499146C /* Pods-BiliBiliScrollHeader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BiliBiliScrollHeader.release.xcconfig"; path = "Pods/Target Support Files/Pods-BiliBiliScrollHeader/Pods-BiliBiliScrollHeader.release.xcconfig"; sourceTree = "<group>"; };
+		EDA6C4FC1C415C3C0036F044 /* BiliBiliScrollHeader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BiliBiliScrollHeader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDA6C5001C415C3D0036F044 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EDA6C5021C415C3D0036F044 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EDA6C5031C415C3D0036F044 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EDA6C5051C415C3D0036F044 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EDA6C5061C415C3D0036F044 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EDA6C5091C415C3D0036F044 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDA6C50B1C415C3D0036F044 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDA6C50E1C415C3D0036F044 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDA6C5101C415C3D0036F044 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDA6C5151C415C3D0036F044 /* BiliBiliScrollHeaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BiliBiliScrollHeaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDA6C5191C415C3D0036F044 /* BiliBiliScrollHeaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BiliBiliScrollHeaderTests.m; sourceTree = "<group>"; };
+		EDA6C51B1C415C3D0036F044 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDA6C5201C415C3D0036F044 /* BiliBiliScrollHeaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BiliBiliScrollHeaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDA6C5241C415C3D0036F044 /* BiliBiliScrollHeaderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BiliBiliScrollHeaderUITests.m; sourceTree = "<group>"; };
+		EDA6C5261C415C3D0036F044 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDA6C5321C415F400036F044 /* libMasonry.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMasonry.a; path = "Pods/../build/Debug-iphoneos/libMasonry.a"; sourceTree = "<group>"; };
+		EDA6C5341C4161070036F044 /* MyScrollHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyScrollHeader.h; sourceTree = "<group>"; };
+		EDA6C5351C4161070036F044 /* MyScrollHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyScrollHeader.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDA6C4F91C415C3C0036F044 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDA6C5331C415F400036F044 /* libMasonry.a in Frameworks */,
+				A75CD92F27595C0F93B4C4FC /* libPods-BiliBiliScrollHeader.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDA6C5121C415C3D0036F044 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDA6C51D1C415C3D0036F044 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5EDC76D0FBD66717DB158E45 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDA6C5321C415F400036F044 /* libMasonry.a */,
+				33AE69ECD8A7DE8793B4949D /* libPods-BiliBiliScrollHeader.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7AB2CF0A29CD2816F6C52C1A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0B9DB9C20A14DBB2C838192D /* Pods-BiliBiliScrollHeader.debug.xcconfig */,
+				D016362AE1A802DB9499146C /* Pods-BiliBiliScrollHeader.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EDA6C4F31C415C3C0036F044 = {
+			isa = PBXGroup;
+			children = (
+				EDA6C4FE1C415C3C0036F044 /* BiliBiliScrollHeader */,
+				EDA6C5181C415C3D0036F044 /* BiliBiliScrollHeaderTests */,
+				EDA6C5231C415C3D0036F044 /* BiliBiliScrollHeaderUITests */,
+				EDA6C4FD1C415C3C0036F044 /* Products */,
+				7AB2CF0A29CD2816F6C52C1A /* Pods */,
+				5EDC76D0FBD66717DB158E45 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EDA6C4FD1C415C3C0036F044 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDA6C4FC1C415C3C0036F044 /* BiliBiliScrollHeader.app */,
+				EDA6C5151C415C3D0036F044 /* BiliBiliScrollHeaderTests.xctest */,
+				EDA6C5201C415C3D0036F044 /* BiliBiliScrollHeaderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDA6C4FE1C415C3C0036F044 /* BiliBiliScrollHeader */ = {
+			isa = PBXGroup;
+			children = (
+				EDA6C5021C415C3D0036F044 /* AppDelegate.h */,
+				EDA6C5031C415C3D0036F044 /* AppDelegate.m */,
+				EDA6C5051C415C3D0036F044 /* ViewController.h */,
+				EDA6C5061C415C3D0036F044 /* ViewController.m */,
+				EDA6C5341C4161070036F044 /* MyScrollHeader.h */,
+				EDA6C5351C4161070036F044 /* MyScrollHeader.m */,
+				EDA6C5081C415C3D0036F044 /* Main.storyboard */,
+				EDA6C50B1C415C3D0036F044 /* Assets.xcassets */,
+				EDA6C50D1C415C3D0036F044 /* LaunchScreen.storyboard */,
+				EDA6C5101C415C3D0036F044 /* Info.plist */,
+				EDA6C4FF1C415C3D0036F044 /* Supporting Files */,
+			);
+			path = BiliBiliScrollHeader;
+			sourceTree = "<group>";
+		};
+		EDA6C4FF1C415C3D0036F044 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDA6C5001C415C3D0036F044 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EDA6C5181C415C3D0036F044 /* BiliBiliScrollHeaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				EDA6C5191C415C3D0036F044 /* BiliBiliScrollHeaderTests.m */,
+				EDA6C51B1C415C3D0036F044 /* Info.plist */,
+			);
+			path = BiliBiliScrollHeaderTests;
+			sourceTree = "<group>";
+		};
+		EDA6C5231C415C3D0036F044 /* BiliBiliScrollHeaderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EDA6C5241C415C3D0036F044 /* BiliBiliScrollHeaderUITests.m */,
+				EDA6C5261C415C3D0036F044 /* Info.plist */,
+			);
+			path = BiliBiliScrollHeaderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDA6C4FB1C415C3C0036F044 /* BiliBiliScrollHeader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDA6C5291C415C3D0036F044 /* Build configuration list for PBXNativeTarget "BiliBiliScrollHeader" */;
+			buildPhases = (
+				F8A78F6D5FA4AC2CCA3898EE /* Check Pods Manifest.lock */,
+				EDA6C4F81C415C3C0036F044 /* Sources */,
+				EDA6C4F91C415C3C0036F044 /* Frameworks */,
+				EDA6C4FA1C415C3C0036F044 /* Resources */,
+				DD5B00552644DCE629920A5E /* Embed Pods Frameworks */,
+				92EF43A262D13F16E2ACF0E7 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BiliBiliScrollHeader;
+			productName = BiliBiliScrollHeader;
+			productReference = EDA6C4FC1C415C3C0036F044 /* BiliBiliScrollHeader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDA6C5141C415C3D0036F044 /* BiliBiliScrollHeaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDA6C52C1C415C3D0036F044 /* Build configuration list for PBXNativeTarget "BiliBiliScrollHeaderTests" */;
+			buildPhases = (
+				EDA6C5111C415C3D0036F044 /* Sources */,
+				EDA6C5121C415C3D0036F044 /* Frameworks */,
+				EDA6C5131C415C3D0036F044 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDA6C5171C415C3D0036F044 /* PBXTargetDependency */,
+			);
+			name = BiliBiliScrollHeaderTests;
+			productName = BiliBiliScrollHeaderTests;
+			productReference = EDA6C5151C415C3D0036F044 /* BiliBiliScrollHeaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EDA6C51F1C415C3D0036F044 /* BiliBiliScrollHeaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDA6C52F1C415C3D0036F044 /* Build configuration list for PBXNativeTarget "BiliBiliScrollHeaderUITests" */;
+			buildPhases = (
+				EDA6C51C1C415C3D0036F044 /* Sources */,
+				EDA6C51D1C415C3D0036F044 /* Frameworks */,
+				EDA6C51E1C415C3D0036F044 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDA6C5221C415C3D0036F044 /* PBXTargetDependency */,
+			);
+			name = BiliBiliScrollHeaderUITests;
+			productName = BiliBiliScrollHeaderUITests;
+			productReference = EDA6C5201C415C3D0036F044 /* BiliBiliScrollHeaderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDA6C4F41C415C3C0036F044 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = wossoneri;
+				TargetAttributes = {
+					EDA6C4FB1C415C3C0036F044 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					EDA6C5141C415C3D0036F044 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = BL9NTM3XD4;
+						TestTargetID = EDA6C4FB1C415C3C0036F044;
+					};
+					EDA6C51F1C415C3D0036F044 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = BL9NTM3XD4;
+						TestTargetID = EDA6C4FB1C415C3C0036F044;
+					};
+				};
+			};
+			buildConfigurationList = EDA6C4F71C415C3C0036F044 /* Build configuration list for PBXProject "BiliBiliScrollHeader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDA6C4F31C415C3C0036F044;
+			productRefGroup = EDA6C4FD1C415C3C0036F044 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDA6C4FB1C415C3C0036F044 /* BiliBiliScrollHeader */,
+				EDA6C5141C415C3D0036F044 /* BiliBiliScrollHeaderTests */,
+				EDA6C51F1C415C3D0036F044 /* BiliBiliScrollHeaderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDA6C4FA1C415C3C0036F044 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDA6C50F1C415C3D0036F044 /* LaunchScreen.storyboard in Resources */,
+				EDA6C50C1C415C3D0036F044 /* Assets.xcassets in Resources */,
+				EDA6C50A1C415C3D0036F044 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDA6C5131C415C3D0036F044 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDA6C51E1C415C3D0036F044 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		92EF43A262D13F16E2ACF0E7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BiliBiliScrollHeader/Pods-BiliBiliScrollHeader-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD5B00552644DCE629920A5E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BiliBiliScrollHeader/Pods-BiliBiliScrollHeader-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8A78F6D5FA4AC2CCA3898EE /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDA6C4F81C415C3C0036F044 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDA6C5071C415C3D0036F044 /* ViewController.m in Sources */,
+				EDA6C5361C4161070036F044 /* MyScrollHeader.m in Sources */,
+				EDA6C5041C415C3D0036F044 /* AppDelegate.m in Sources */,
+				EDA6C5011C415C3D0036F044 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDA6C5111C415C3D0036F044 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDA6C51A1C415C3D0036F044 /* BiliBiliScrollHeaderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDA6C51C1C415C3D0036F044 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDA6C5251C415C3D0036F044 /* BiliBiliScrollHeaderUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDA6C5171C415C3D0036F044 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDA6C4FB1C415C3C0036F044 /* BiliBiliScrollHeader */;
+			targetProxy = EDA6C5161C415C3D0036F044 /* PBXContainerItemProxy */;
+		};
+		EDA6C5221C415C3D0036F044 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDA6C4FB1C415C3C0036F044 /* BiliBiliScrollHeader */;
+			targetProxy = EDA6C5211C415C3D0036F044 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EDA6C5081C415C3D0036F044 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDA6C5091C415C3D0036F044 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDA6C50D1C415C3D0036F044 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDA6C50E1C415C3D0036F044 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDA6C5271C415C3D0036F044 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDA6C5281C415C3D0036F044 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDA6C52A1C415C3D0036F044 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B9DB9C20A14DBB2C838192D /* Pods-BiliBiliScrollHeader.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = BiliBiliScrollHeader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.magewell.BiliBiliScrollHeader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EDA6C52B1C415C3D0036F044 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D016362AE1A802DB9499146C /* Pods-BiliBiliScrollHeader.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = BiliBiliScrollHeader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.magewell.BiliBiliScrollHeader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EDA6C52D1C415C3D0036F044 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BiliBiliScrollHeaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.magewell.BiliBiliScrollHeaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BiliBiliScrollHeader.app/BiliBiliScrollHeader";
+			};
+			name = Debug;
+		};
+		EDA6C52E1C415C3D0036F044 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BiliBiliScrollHeaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.magewell.BiliBiliScrollHeaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BiliBiliScrollHeader.app/BiliBiliScrollHeader";
+			};
+			name = Release;
+		};
+		EDA6C5301C415C3D0036F044 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BiliBiliScrollHeaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.magewell.BiliBiliScrollHeaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BiliBiliScrollHeader;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EDA6C5311C415C3D0036F044 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BiliBiliScrollHeaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.magewell.BiliBiliScrollHeaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BiliBiliScrollHeader;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDA6C4F71C415C3C0036F044 /* Build configuration list for PBXProject "BiliBiliScrollHeader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDA6C5271C415C3D0036F044 /* Debug */,
+				EDA6C5281C415C3D0036F044 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDA6C5291C415C3D0036F044 /* Build configuration list for PBXNativeTarget "BiliBiliScrollHeader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDA6C52A1C415C3D0036F044 /* Debug */,
+				EDA6C52B1C415C3D0036F044 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDA6C52C1C415C3D0036F044 /* Build configuration list for PBXNativeTarget "BiliBiliScrollHeaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDA6C52D1C415C3D0036F044 /* Debug */,
+				EDA6C52E1C415C3D0036F044 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDA6C52F1C415C3D0036F044 /* Build configuration list for PBXNativeTarget "BiliBiliScrollHeaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDA6C5301C415C3D0036F044 /* Debug */,
+				EDA6C5311C415C3D0036F044 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDA6C4F41C415C3C0036F044 /* Project object */;
+}
